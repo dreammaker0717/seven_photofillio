@@ -201,13 +201,14 @@ function App() {
       <header id="header">
         <div className="container">
           <h5>Hello, World.</h5>
-          <h1><a href="index.html">I'm Vlad K</a></h1>
+          <h1><a href="index.html">I'm Vlad H</a></h1>
           <p className="intro-position">
-            <span>FullStack Developer</span>
+            <span>FullStack</span>
             <span>MERN</span>
             <span>Python</span>
-            <span>AI/ChatGPT</span>
-            <span>Automation</span>
+            <span>AI / ChatGPT</span>
+            <span>AI Automation</span>
+            <span>Bot</span>
           </p>
           <nav id="navbar" className="navbar">
             <ul>
@@ -222,10 +223,11 @@ function App() {
           </nav>
 
           <div className="social-links">
-            <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
-            <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
-            <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
-            <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
+            <a href="https://discord.com/users/1111285993283256461" className="discord" target="_blank"><i className="bi bi-discord"></i></a>
+            <a href="https://github.com/DreamDev0122/" className="github" target="_blank"><i className="bi bi-github"></i></a>
+            <a href="https://t.me/@topluckyseven" className="telegram" target="_blank"><i className="bi bi-telegram"></i></a>
+            <a href="https://wa.me/14092933880" className="whatsapp" target="_blank"><i className="bi bi-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/" className="linkedin" target="_blank"><i className="bi bi-linkedin"></i></a>
           </div>
 
         </div>
@@ -244,7 +246,7 @@ function App() {
               <img src="assets/img/me.jpg" className="img-fluid" alt="" />
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-              <h3>FullStack &amp; Automation Developer</h3>
+              <h3>FullStack &amp; AI Automation Developer</h3>
               <p className="fst-italic">
                 I'm Vlad and I'm here to help you improve your business.
                 My software development experience is in Creative UI Design, Website building, Dapp development, Smart contract development and AI Chatbot development/integration.
@@ -252,17 +254,17 @@ function App() {
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>23 Oct 1990</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>2 Feb 1998</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+380 506682241</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Uman, Cherkasy Ukraine</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+4915212208991</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Address:</strong> <span>6 Weg Berghofer, Berlin, Germany</span></li>
                   </ul>
                 </div>
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>34</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>27</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>kalatalovladyslav522@gmail.com</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>vladyslavharlitskyi@outlook.com</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                   </ul>
                 </div>
@@ -306,7 +308,7 @@ function App() {
                 <i className="bi bi-headset"></i>
                 <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" className="purecounter"></span>
                 <p>Hours Of Support</p>
-                <span>3000 +</span>
+                <span>6000 +</span>
               </div>
             </div>
 
@@ -401,6 +403,18 @@ function App() {
                 <span className="skill"><span>GIT & BitBucket</span> <i className="val">90%</i></span>
                 <ProgressBar maxvalue="90" />
               </div>
+              <div className="progress">
+                <span className="skill"> <span> ZAPPER</span> <i className="val">100%</i></span>
+                <ProgressBar maxvalue="100" />
+              </div>
+              <div className="progress">
+                <span className="skill"> <span> MAKE.com </span> <i className="val">90%</i></span>
+                <ProgressBar maxvalue="90" />
+              </div>
+              <div className="progress">
+                <span className="skill"> <span> Telegram Bot</span> <i className="val">100%</i></span>
+                <ProgressBar maxvalue="100" />
+              </div>
             </div>
 
             <div className="col-lg-6">
@@ -476,7 +490,14 @@ function App() {
                 <span className="skill"> <span> Machine Learning</span> <i className="val">70%</i></span>
                 <ProgressBar maxvalue="70" />
               </div>
-
+              <div className="progress">
+                <span className="skill"> <span> N8N</span> <i className="val">90%</i></span>
+                <ProgressBar maxvalue="90" />
+              </div>
+              <div className="progress">
+                <span className="skill"> <span> Discord Bot</span> <i className="val">100%</i></span>
+                <ProgressBar maxvalue="100" />
+              </div>
             </div>
           </div>
 
@@ -535,7 +556,7 @@ function App() {
                 <div className="testimonial-item">
                   <p>
                     <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Vlad K has proved to be a hidden gem. I'm happy I found such a knowledgeable, efficient and effective lead generator. I will definitely use him for other projects.
+                    Vlad H has proved to be a hidden gem. I'm happy I found such a knowledgeable, efficient and effective lead generator. I will definitely use him for other projects.
                     The contract is great to work with, provides accurate information and performs the work required timely. Would hire again.
                     <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
@@ -603,7 +624,7 @@ function App() {
             <div className="col-lg-6">
               <h3 className="resume-title">Sumary</h3>
               <div className="resume-item pb-0">
-                <h4>Vlad K</h4>
+                <h4>Vlad H</h4>
                 <p><em>I have expertise in web scraping, automation bot creation, and developing web and custom applications across various domains, such as Education, Services, Ecommerce, Financial Applications, Real Estate, Restaurants, Telecom, and Healthcare for numerous USA-based clients.</em></p>
                 <p><em>In summary, if you seek a developer who delivers high-quality work, prompt responses, and 100% customer satisfaction, look no further. My skills in full-stack development, chatbot development, and API integration can propel your business to new heights.</em></p>
               </div>
@@ -611,46 +632,49 @@ function App() {
               <h3 className="resume-title">Education</h3>
               <div className="resume-item">
                 <h4>Bachelor of Computer Science (BCompSc)</h4>
-                <h5>2008 - 2012</h5>
+                <h5>2015 - 2019</h5>
                 <p><em>Computer science</em></p>
-                <p><em>Technical University of Munich</em></p>
+                <p><em>University of Applied Sciences</em></p>
               </div>
               <div className="resume-item">
-                <h4>Full Stack Developer | Voypost</h4>
-                <h5>April 2012 - March 2016</h5>
-                <p><em>Voypost, Berlin, Germany</em></p>
+                <h4>Senior Full Stack Developer | Softermii</h4>
+                <h5>October 2019 - April 2021</h5>
+                <p><em>Softermii, Berlin, Germany</em></p>
                 <ul>
-                  <li>Worked on an interface for a business intelligence application.</li>
-                  <li>Delivered complete CRM solution for a local business incubator, including handling every tenant, generating monthly-based reports, and generating invoices.</li>
-                  <li>Delivered a complete CRM solution for a property agency, including handling every real estate property, generating custom brochures, and publishing real estate on a live site.</li>
-                  <li>Delivered an application for handling property-based call centers.</li>
-                  <li>Worked on the development of a custom CMS solution for multi-language websites.</li>
+                  <li>Built and maintained a high-traffic Node.js website with over 2,000 daily visitors.</li>
+                  <li>Oversaw Google Analytics implementation to track user behavior and improve conversion rates.</li>
+                  <li>Developed custom post types and meta structures integrated with the WP REST API to support a mobile app backend.</li>
+                  <li>Managed a Google AdGrants Pro account with a monthly advertising budget of $40,000.</li>
+                  <li>Implemented dynamic, interactive components using React.js to enhance user engagement.</li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="resume-item">
-                <h4>AI Engineer | DevsData Tech Talent LLC</h4>
-                <h5>May 2016 - August 2019</h5>
+                <h4>Machine Learning Engineer | MLAI, LLC</h4>
+                <h5>May 2021 - May 2023</h5>
                 <p><em>DevsData Tech Talent LLC, Berlin, Germany</em></p>
                 <ul>
-                  <li>Communicated with product owners to comprehend desired application functionality and testing scenarios.</li>
-                  <li>Crafted and integrated systems that interface with blockchains and smart contracts across major platforms including Ethereum, Layer 2 networks, and other prominent blockchain technologies.</li>
-                  <li>Engaged in internal and external technology communities and provided mentorship to two members of the engineering team.</li>
-                  <li>Expanded the company's product offerings by promoting innovation, adoption of cutting-edge technologies, inclusivity, creative problem solving, teamwork, and diversity.</li>
+                  <li>Built an automated Agentic AI pipeline for generating educational visual guides and published them on the Kindle store.</li>
+                  <li>Automated the daily refresh of news content enabling the entire app to work on autopilot.</li>
+                  <li>Labeled data manually to train a model for clickbait detection in news articles with 83% accuracy.</li>
+                  <li>Optimized the performance to efficiently fetch around 5,000 distinct news articles every day from 400 news feeds.</li>
+                  <li>Fetched and parsed news articles daily, updated models and predictions, and uploaded an optimized view to AWS S3.</li>
                 </ul>
               </div>
               <div className="resume-item">
                 <h3 className="resume-title">Professional Experience</h3>
-                <h4>Senior Full Stack Developer | Softermii</h4>
-                <h5>October 2019 - August 2024</h5>
-                <p><em>Softermii, Berlin, Germany </em></p>
+                <h4>AI & Automation Engineer | DevsData Tech Talent LLC</h4>
+                <h5>June 2023 - June 2025</h5>
+                <p><em>DevsData Tech Talent LLC, Berlin, Germany </em></p>
                 <ul>
-                  <li>Created and managed a Node-based website with 2k+ daily visitors.</li>
-                  <li>Manage a Google Analytics profile for website conversion rate optimization.</li>
-                  <li>Integrated custom post type and meta architecture with WP REST API to power a mobile application.</li>
-                  <li>Managed Google AdGrants Pro with monthly budget of $40,000.</li>
-                  <li>Integrated interactive Vue.js-based components.</li>
+                  <li>Responsible for designing and implementing a variety of powerful, automated systems for clients—primarily using Airtable, large language models (GPT-4, Claude), n8n, Zapier and Make.com.</li>
+                  <li>Developed and deployed a churn model using gradient boosting for an insurance company.</li>
+                  <li>Developed and deployed a convolutional network for customer spending forecasting using TensorFlow, Ansible, Docker, ECS, DynamoDB, and PostgreSQL.</li>
+                  <li>Developed and deployed a text classification system using a convolutional model using TensorFlow and Spark.</li>
+                  <li>Created a open domain chatbot based on machine comprehension (Facebook's DrQA) using PyTorch, Flask, React, and DialogFlow.</li>
+                  <li>Assisted in the development of a person tracking system using Yolo v2 and Kalman filters for a major Australian retail company.</li>
+                  <li>Assisted with a markdown system based on demand forecasting using Facebook's Prophet and revenue optimization using mixed-integer linear programming.</li>
                 </ul>
               </div>
             </div>
@@ -903,11 +927,11 @@ function App() {
             </div>
             <div className="col-lg-4 col-md-6 portfolio-item filter-bot">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Screenshot_9.png" class="img-fluid" alt="" />
+                <img src="assets/img/portfolio/sample/Screenshot_1.png" class="img-fluid" alt="" />
                 <div class="portfolio-info">
-                  <p>The Trading Bot</p>
+                  <p>The Summarizer Bot</p>
                   <div class="portfolio-links">
-                    <a href="assets/img/portfolio/Screenshot_9.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus" ></i></a>
+                    <a href="assets/img/portfolio/sample/Screenshot_1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus" ></i></a>
                   </div>
                 </div>
               </div>
@@ -934,6 +958,17 @@ function App() {
                 </div>
               </div>
             </div>
+            <div className="col-lg-4 col-md-6 portfolio-item filter-bot">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/sample/n8n.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <p>Automation for Business workflow using N8N</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/sample/n8n.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus" ></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -953,7 +988,7 @@ function App() {
               <div className="info-box">
                 <i className="bx bx-map"></i>
                 <h3>My Address</h3>
-                <p>15 Nunsdorfer Ring, Tempelhof-Schöneberg, Berlin, Germany</p>
+                <p>6 Weg Berghofer, Berlin, Germany</p>
               </div>
             </div>
 
@@ -962,10 +997,10 @@ function App() {
                 <i className="bx bx-share-alt"></i>
                 <h3>Social Profiles</h3>
                 <div className="social-links">
-                  <a href="https://github.com/DreamDev0122/" className="discord" target="_blank"><i className="bi bi-discord"></i></a>
+                  <a href="https://discord.com/users/1111285993283256461" className="discord" target="_blank"><i className="bi bi-discord"></i></a>
                   <a href="https://github.com/DreamDev0122/" className="github" target="_blank"><i className="bi bi-github"></i></a>
-                  <a href="https://t.me/lucky0122" className="telegram" target="_blank"><i className="bi bi-telegram"></i></a>
-                  <a href="https://wa.me/13612325229" className="whatsapp" target="_blank"><i className="bi bi-whatsapp"></i></a>
+                  <a href="https://t.me/@topluckyseven" className="telegram" target="_blank"><i className="bi bi-telegram"></i></a>
+                  <a href="https://wa.me/14092933880" className="whatsapp" target="_blank"><i className="bi bi-whatsapp"></i></a>
                   <a href="https://www.linkedin.com/in/" className="linkedin" target="_blank"><i className="bi bi-linkedin"></i></a>
                 </div>
               </div>
@@ -975,14 +1010,14 @@ function App() {
               <div className="info-box">
                 <i className="bx bx-envelope"></i>
                 <h3>Email Me</h3>
-                <p>kalatalovladyslav522@gmail.com</p>
+                <p>vladyslavharlitskyi@outlook.com</p>
               </div>
             </div>
             <div className="col-md-6 mt-4 d-flex align-items-stretch">
               <div className="info-box">
                 <i className="bx bx-phone-call"></i>
                 <h3>Call Me</h3>
-                <p>+380 506682241</p>
+                <p>+4915212208991</p>
               </div>
             </div>
           </div>
@@ -1014,7 +1049,7 @@ function App() {
       </section>
 
       <div className="credits">
-        Designed by <a href="https://bootstrapmade.com/">Vlad K</a>
+        Designed by <a href="https://bootstrapmade.com/">Vlad H</a>
       </div>
     </div>
   );
