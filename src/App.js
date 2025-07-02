@@ -758,7 +758,8 @@ function App() {
               <ul id="portfolio-flters">
                 <li data-filter="*" className="filter-active">All</li>
                 <li data-filter=".filter-blockchain">BlockChain</li>
-                <li data-filter=".filter-ecommerce">Ecommerce</li>
+                <li data-filter=".filter-ecommerce">React&Next</li>
+                <li data-filter=".filter-shopify">Shopify</li>
                 <li data-filter=".filter-web">General Web</li>
                 <li data-filter=".filter-bot">Automation & Bot</li>
                 <li data-filter=".filter-ai">AI</li>
@@ -820,6 +821,36 @@ function App() {
                     <img src="assets/img/portfolio/motors.stylemixthemes.com.png" alt="project-img" className="" />
                     <div className="mt-6 flex justify-between items-center">
                       <a target="_blank" rel="noreferrer" href="https://motors.stylemixthemes.com/">
+                        <button className="btn btn-primary btn-outline rounded-full bg-black lg:w-36 w-24">Live Demo</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-shopify">
+              <div className="cards">
+                <div className="cards2">
+                  <div className="mx-auto image-wrap">
+                    <img src="assets/img/portfolio/screencapture-whiterunway-au-2025-07-01-12_29_45.png" alt="project-img" className="" />
+                    <div className="mt-6 flex justify-between items-center">
+                      <a target="_blank" rel="noreferrer" href="https://whiterunway.com.au/">
+                        <button className="btn btn-primary btn-outline rounded-full bg-black lg:w-36 w-24">Live Demo</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-shopify">
+              <div className="cards">
+                <div className="cards2">
+                  <div className="mx-auto image-wrap">
+                    <img src="assets/img/portfolio/screencapture-quadlockcase-2025-07-01-17_54_48.png" alt="project-img" className="" />
+                    <div className="mt-6 flex justify-between items-center">
+                      <a target="_blank" rel="noreferrer" href="https://www.quadlockcase.com/">
                         <button className="btn btn-primary btn-outline rounded-full bg-black lg:w-36 w-24">Live Demo</button>
                       </a>
                     </div>
