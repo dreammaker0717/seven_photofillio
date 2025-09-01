@@ -1084,11 +1084,17 @@ function App() {
                 <i className="bx bx-share-alt"></i>
                 <h3>Social Profiles</h3>
                 <div className="social-links">
-                  <a href="https://discord.com/users/1111285993283256461" className="discord" target="_blank"><i className="bi bi-discord"></i></a>
+                  {/* <a href="https://discord.com/users/1111285993283256461" className="discord" target="_blank"><i className="bi bi-discord"></i></a>
                   <a href="https://github.com/DreamDev0122/" className="github" target="_blank"><i className="bi bi-github"></i></a>
                   <a href="https://t.me/@topluckyseven" className="telegram" target="_blank"><i className="bi bi-telegram"></i></a>
                   <a href="https://wa.me/14092933880" className="whatsapp" target="_blank"><i className="bi bi-whatsapp"></i></a>
-                  <a href="https://www.linkedin.com/in/" className="linkedin" target="_blank"><i className="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/" className="linkedin" target="_blank"><i className="bi bi-linkedin"></i></a> */}
+
+                  {/* <a href="https://discord.com/users/1111285993283256461" className="discord" target="_blank"><i className="bi bi-discord"></i></a>
+                  <a href="https://github.com/DreamDev0122/" className="github" target="_blank"><i className="bi bi-github"></i></a>
+                  <a href="https://t.me/@topluckyseven" className="telegram" target="_blank"><i className="bi bi-telegram"></i></a>
+                  <a href="https://wa.me/14092933880" className="whatsapp" target="_blank"><i className="bi bi-whatsapp"></i></a>
+                  <a href="https://www.linkedin.com/in/" className="linkedin" target="_blank"><i className="bi bi-linkedin"></i></a> */}
                 </div>
               </div>
             </div>
