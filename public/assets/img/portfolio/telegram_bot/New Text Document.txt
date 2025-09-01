@@ -1,0 +1,7 @@
+This bot is designed to summarize Telegram message history. My previous client was a premium user who belonged to many groups and channels, so it was hard for him to keep up with all the messages. With this bot, users can get summaries of their message history and easily catch the important messages. The bot can also automatically send a daily summary to a specific channel.
+
+
+
+
+
+This bot was built to summarize Telegram message history. My previous client was a premium user in tons of groups and channels, so it was tough for him to keep up. With this bot, users can get message summaries and quickly see what’s important. It can also send a daily summary automatically to a specific channel.

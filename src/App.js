@@ -200,8 +200,8 @@ function App() {
       <div className="intro-overlay"></div>
       <header id="header">
         <div className="container">
-          <h5>Hello, World.</h5>
-          <h1><a href="index.html">I'm Vlad H</a></h1>
+          <h5>Hello World!</h5>
+          <a href="index.html" className='main_name'>I'm Dmytro Chmykhalo</a>
           <p className="intro-position">
             <span>FullStack</span>
             <span>MERN</span>
@@ -222,13 +222,13 @@ function App() {
             <i className="bi bi-list mobile-nav-toggle"></i>
           </nav>
 
-          <div className="social-links">
+          {/* <div className="social-links">
             <a href="https://discord.com/users/1111285993283256461" className="discord" target="_blank"><i className="bi bi-discord"></i></a>
             <a href="https://github.com/DreamDev0122/" className="github" target="_blank"><i className="bi bi-github"></i></a>
             <a href="https://t.me/@topluckyseven" className="telegram" target="_blank"><i className="bi bi-telegram"></i></a>
             <a href="https://wa.me/14092933880" className="whatsapp" target="_blank"><i className="bi bi-whatsapp"></i></a>
             <a href="https://www.linkedin.com/in/" className="linkedin" target="_blank"><i className="bi bi-linkedin"></i></a>
-          </div>
+          </div> */}
 
         </div>
       </header>
@@ -248,23 +248,23 @@ function App() {
             <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
               <h3>FullStack &amp; AI Automation Developer</h3>
               <p className="fst-italic">
-                I'm Vlad and I'm here to help you improve your business.
+                I'm Dmytro and I'm here to help you improve your business.
                 My software development experience is in Creative UI Design, Website building, Dapp development, Smart contract development and AI Chatbot development/integration.
               </p>
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>2 Feb 1998</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>07 June 1995</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+4915212208991</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Address:</strong> <span>6 Weg Berghofer, Berlin, Germany</span></li>
+                    {/* <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+4915212208991</span></li> */}
+                    <li><i className="bi bi-chevron-right"></i> <strong>Address:</strong> <span>Jaspisowa 15, Warszawa, Poland</span></li>
                   </ul>
                 </div>
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>27</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>vladyslavharlitskyi@outlook.com</span></li>
+                    {/* <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span></span></li> */}
                     <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                   </ul>
                 </div>
@@ -556,7 +556,7 @@ function App() {
                 <div className="testimonial-item">
                   <p>
                     <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Vlad H has proved to be a hidden gem. I'm happy I found such a knowledgeable, efficient and effective lead generator. I will definitely use him for other projects.
+                    Dmytro Chmykhalo has proved to be a hidden gem. I'm happy I found such a knowledgeable, efficient and effective lead generator. I will definitely use him for other projects.
                     The contract is great to work with, provides accurate information and performs the work required timely. Would hire again.
                     <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
@@ -569,7 +569,7 @@ function App() {
                 <div className="testimonial-item">
                   <p>
                     <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Vlad is really good at programming. This will definitely not be the last time we work together. Not only is he really good and experienced, he is friendly, responsive, and experienced. I would strongly recommend Vlad for anyone who needs a programmer. Good work, Vlad 😀.
+                    Dmytro is really good at programming. This will definitely not be the last time we work together. Not only is he really good and experienced, he is friendly, responsive, and experienced. I would strongly recommend Dmytro for anyone who needs a programmer. Good work, Dmytro 😀.
                     <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                   <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" />
@@ -624,7 +624,7 @@ function App() {
             <div className="col-lg-6">
               <h3 className="resume-title">Sumary</h3>
               <div className="resume-item pb-0">
-                <h4>Vlad H</h4>
+                <h4>Dmytro Chmykhalo</h4>
                 <p><em>I have expertise in web scraping, automation bot creation, and developing web and custom applications across various domains, such as Education, Services, Ecommerce, Financial Applications, Real Estate, Restaurants, Telecom, and Healthcare for numerous USA-based clients.</em></p>
                 <p><em>In summary, if you seek a developer who delivers high-quality work, prompt responses, and 100% customer satisfaction, look no further. My skills in full-stack development, chatbot development, and API integration can propel your business to new heights.</em></p>
               </div>
@@ -632,49 +632,55 @@ function App() {
               <h3 className="resume-title">Education</h3>
               <div className="resume-item">
                 <h4>Bachelor of Computer Science (BCompSc)</h4>
-                <h5>2015 - 2019</h5>
+                <h5>2012-2016</h5>
                 <p><em>Computer science</em></p>
-                <p><em>University of Applied Sciences</em></p>
+                <p><em>Warsaw university</em></p>
               </div>
               <div className="resume-item">
-                <h4>Senior Full Stack Developer | Softermii</h4>
-                <h5>October 2019 - April 2021</h5>
-                <p><em>Softermii, Berlin, Germany</em></p>
+                <h4>Master of computer science</h4>
+                <h5>2016-2018</h5>
+                <p><em>Computer science</em></p>
+                <p><em>Warsaw university</em></p>
+              </div>
+              <h3 className="resume-title">Professional Experience</h3>
+              <div className="resume-item">
+                <h4>Senior Full Stack Developer | Abyron</h4>
+                <h5>August 2018 - May 2021</h5>
+                <p><em>Abyron, Warsaw, Poland</em></p>
                 <ul>
-                  <li>Built and maintained a high-traffic Node.js website with over 2,000 daily visitors.</li>
-                  <li>Oversaw Google Analytics implementation to track user behavior and improve conversion rates.</li>
-                  <li>Developed custom post types and meta structures integrated with the WP REST API to support a mobile app backend.</li>
-                  <li>Managed a Google AdGrants Pro account with a monthly advertising budget of $40,000.</li>
-                  <li>Implemented dynamic, interactive components using React.js to enhance user engagement.</li>
+                  <li>Co-developed a HIPAA-compliant telehealth system with React and WebRTC, supporting secure video consultations and real-time messaging via Socket.IO.</li>
+                  <li>Built a digital intake process for patients, including ID verification, dynamic consent, and auto-generated PDFs from form data.</li>
+                  <li>Created a clinician-facing portal with scheduling, patient records, and dashboards using NestJS and PostgreSQL.</li>
+                  <li>Integrated Stripe for payments and Google Calendar for automatic syncing of scheduled consultations.</li>
+                  <li>Developed and enforced fine-grained RBAC with logging to monitor sensitive actions.</li>
+                  <li>Focused on accessibility and mobile-first design, adhering to WCAG guidelines.</li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="resume-item">
-                <h4>Machine Learning Engineer | MLAI, LLC</h4>
+                <h4>Senior Web Developer | Exposit</h4>
                 <h5>May 2021 - May 2023</h5>
-                <p><em>DevsData Tech Talent LLC, Berlin, Germany</em></p>
+                <p><em>Exposit, Gdansk, Poland</em></p>
                 <ul>
-                  <li>Built an automated Agentic AI pipeline for generating educational visual guides and published them on the Kindle store.</li>
-                  <li>Automated the daily refresh of news content enabling the entire app to work on autopilot.</li>
-                  <li>Labeled data manually to train a model for clickbait detection in news articles with 83% accuracy.</li>
-                  <li>Optimized the performance to efficiently fetch around 5,000 distinct news articles every day from 400 news feeds.</li>
-                  <li>Fetched and parsed news articles daily, updated models and predictions, and uploaded an optimized view to AWS S3.</li>
+                  <li>Designed a real-time fintech dashboard with React and Redux-Saga, enabling users to track multi-bank account balances, transactions, and investment data across platforms.</li>
+                  <li>Built Node.js microservices for live transaction monitoring, integrating Plaid, Yodlee, and Stripe webhooks to handle deposits, withdrawals, and card activity.</li>
+                  <li>Implemented secure OAuth flows for major banks like Chase and Bank of America, with dynamic syncing of user balances and transactions to PostgreSQL.</li>
+                  <li>Created interactive financial visualizations using Recharts and custom SVG icons for account categories.</li>
+                  <li>Led the development of a secure authentication system using JWT and OAuth2, enabling MFA and eliminating password-based logins.</li>
                 </ul>
               </div>
               <div className="resume-item">
-                <h3 className="resume-title">Professional Experience</h3>
-                <h4>AI & Automation Engineer | DevsData Tech Talent LLC</h4>
+                <h4>Software Engineer | Alltegrio</h4>
                 <h5>June 2023 - June 2025</h5>
-                <p><em>DevsData Tech Talent LLC, Berlin, Germany </em></p>
+                <p><em>Alltegrio, Warsaw, Poland </em></p>
                 <ul>
-                  <li>Responsible for designing and implementing a variety of powerful, automated systems for clients—primarily using Airtable, large language models (GPT-4, Claude), n8n, Zapier and Make.com.</li>
-                  <li>Developed and deployed a churn model using gradient boosting for an insurance company.</li>
-                  <li>Developed and deployed a convolutional network for customer spending forecasting using TensorFlow, Ansible, Docker, ECS, DynamoDB, and PostgreSQL.</li>
-                  <li>Developed and deployed a text classification system using a convolutional model using TensorFlow and Spark.</li>
-                  <li>Created a open domain chatbot based on machine comprehension (Facebook's DrQA) using PyTorch, Flask, React, and DialogFlow.</li>
-                  <li>Assisted in the development of a person tracking system using Yolo v2 and Kalman filters for a major Australian retail company.</li>
-                  <li>Assisted with a markdown system based on demand forecasting using Facebook's Prophet and revenue optimization using mixed-integer linear programming.</li>
+                  <li> Spearheaded the development of a HIPAA-compliant telehealth platform, building secure video consultation features using React, WebRTC, and Socket.IO with advanced encryption protocols.</li>
+                  <li>Designed and implemented a digital patient onboarding flow with real-time ID verification, dynamic consent forms, and symptom intake. Integrated automated PDF generation and secure data storage.</li>
+                  <li>Developed a full-featured clinician portal using NestJS and PostgreSQL to support real-time access to patient records, appointment scheduling, and prescription management.</li>
+                  <li>Integrated Stripe for secure billing workflows and connected Google Calendar APIs to sync provider schedules.</li>
+                  <li>Built a robust role-based access control (RBAC) system with custom permission sets and audit logging for compliance and security.</li>
+                  <li>Delivered a fully responsive and WCAG-compliant user interface, optimized for usability across devices and screen sizes.</li>
                 </ul>
               </div>
             </div>
@@ -757,11 +763,11 @@ function App() {
             <div className="col-lg-12 d-flex justify-content-center">
               <ul id="portfolio-flters">
                 <li data-filter="*" className="filter-active">All</li>
-                <li data-filter=".filter-blockchain">BlockChain</li>
-                <li data-filter=".filter-ecommerce">React&Next</li>
+                <li data-filter=".filter-web">React & Next</li>
+                <li data-filter=".filter-php">PHP & Laravel</li>
                 <li data-filter=".filter-shopify">Shopify</li>
-                <li data-filter=".filter-web">General Web</li>
                 <li data-filter=".filter-bot">Automation & Bot</li>
+                <li data-filter=".filter-extensions">Browser Extensions</li>
                 <li data-filter=".filter-ai">AI</li>
               </ul>
             </div>
@@ -769,7 +775,7 @@ function App() {
 
           <div className="row portfolio-container">
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-blockchain">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="cards">
                 <div className="cards2">
                   <div className="mx-auto image-wrap">
@@ -799,7 +805,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-blockchain">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="cards">
                 <div className="cards2">
                   <div className="mx-auto image-wrap">
@@ -814,7 +820,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-ecommerce">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="cards">
                 <div className="cards2">
                   <div className="mx-auto image-wrap">
@@ -874,7 +880,9 @@ function App() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-blockchain">
+
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="cards">
                 <div className="cards2">
                   <div className="mx-auto image-wrap">
@@ -889,7 +897,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-ecommerce">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="cards">
                 <div className="cards2">
                   <div className="mx-auto image-wrap">
@@ -904,7 +912,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-ecommerce">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="cards">
                 <div className="cards2">
                   <div className="mx-auto image-wrap">
@@ -935,49 +943,59 @@ function App() {
             </div>
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-bot">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/sample/telegram_bot.png" class="img-fluid" alt="" />
-                <div class="portfolio-info">
-                  <p>The bot that summarizes Telegram messages using OpenAI</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/sample/telegram_bot.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus" ></i></a>
+              <div className="cards">
+                <div className="cards2">
+                  <div className="mx-auto image-wrap">
+                    <img src="assets/img/portfolio/telegram_bot/teletrma_bot.png" alt="project-img" className="" />
+                    <div className="mt-6 flex justify-between items-center">
+                    <div class="portfolio-info">
+                      <p>The bot that summarizes Telegram messages using OpenAI.</p>
+                      <div class="portfolio-links">
+                        <a href="assets/img/portfolio/telegram_bot/teletrma_bot.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus" ></i></a>
+                      </div>
+                    </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+
             <div className="col-lg-4 col-md-6 portfolio-item filter-bot">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Screenshot_10.png" class="img-fluid" alt="" />
-                <div class="portfolio-info">
-                  <p>The bot that fetch transaction history from Cielo</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/Screenshot_10.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus" ></i></a>
+              <div className="cards">
+                <div className="cards2">
+                  <div className="mx-auto image-wrap">
+                    <img src="assets/img/portfolio/telegram_bot/teletrma_bot2.png" alt="project-img" className="" />
+                    <div className="mt-6 flex justify-between items-center">
+                    <div class="portfolio-info">
+                      <p>The bot that summarizes Telegram messages using OpenAI.</p>
+                      <div class="portfolio-links">
+                        <a href="assets/img/portfolio/telegram_bot/teletrma_bot2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus" ></i></a>
+                      </div>
+                    </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+
             <div className="col-lg-4 col-md-6 portfolio-item filter-bot">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/sample/Screenshot_1.png" class="img-fluid" alt="" />
-                <div class="portfolio-info">
-                  <p>The Summarizer Bot</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/sample/Screenshot_1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus" ></i></a>
+              <div className="cards">
+                <div className="cards2">
+                  <div className="mx-auto image-wrap">
+                    <img src="assets/img/portfolio/discord_bot/discord_bot.png" alt="project-img" className="" />
+                    <div className="mt-6 flex justify-between items-center">
+                    <div class="portfolio-info">
+                      <p>The discord bot that fetch the NFT for upcoming mint.</p>
+                      <div class="portfolio-links">
+                        <a href="assets/img/portfolio/telegram_bot/teletrma_bot2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus" ></i></a>
+                      </div>
+                    </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 portfolio-item filter-bot">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/discord_bot/mint-1.PNG" class="img-fluid" alt="" />
-                <div class="portfolio-info">
-                  <p>The discord bot that fetch the NFT for upcoming mint</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/discord_bot/mint-2.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus" ></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
             <div className="col-lg-4 col-md-6 portfolio-item filter-bot">
               <div class="portfolio-wrap">
                 <img src="assets/img/portfolio/sample/zpaire_automation3.jpg" class="img-fluid" alt="" />
@@ -989,6 +1007,7 @@ function App() {
                 </div>
               </div>
             </div>
+
             <div className="col-lg-4 col-md-6 portfolio-item filter-bot">
               <div class="portfolio-wrap">
                 <img src="assets/img/portfolio/sample/n8n.png" class="img-fluid" alt="" />
@@ -1000,6 +1019,43 @@ function App() {
                 </div>
               </div>
             </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-extensions">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/extensions/otp_extractor.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <p>User can extract OTP from any website using this extension.</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/extensions/otp_extractor.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus" ></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-extensions">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/extensions/ticketmaster.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <p>Resale the ticket from Ticketmaster using this extension.</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/extensions/ticketmaster.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus" ></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-extensions">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/extensions/pexels.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <p>User can extract the favorite image from Pexels using this extension.</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/extensions/pexels.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus" ></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
 
         </div>
@@ -1019,7 +1075,7 @@ function App() {
               <div className="info-box">
                 <i className="bx bx-map"></i>
                 <h3>My Address</h3>
-                <p>6 Weg Berghofer, Berlin, Germany</p>
+                <p>Jaspisowa 15, Warszawa, Poland</p>
               </div>
             </div>
 
@@ -1041,14 +1097,15 @@ function App() {
               <div className="info-box">
                 <i className="bx bx-envelope"></i>
                 <h3>Email Me</h3>
-                <p>vladyslavharlitskyi@outlook.com</p>
+                {/* <p>vladyslavharlitskyi@outlook.com</p> */}
               </div>
             </div>
             <div className="col-md-6 mt-4 d-flex align-items-stretch">
               <div className="info-box">
                 <i className="bx bx-phone-call"></i>
                 <h3>Call Me</h3>
-                <p>+4915212208991</p>
+                <p></p>
+                {/* <p>+4915212208991</p> */}
               </div>
             </div>
           </div>
@@ -1080,7 +1137,7 @@ function App() {
       </section>
 
       <div className="credits">
-        Designed by <a href="https://bootstrapmade.com/">Vlad H</a>
+        Designed by <a href="https://bootstrapmade.com/">Dmytro Chmykhalo</a>
       </div>
     </div>
   );

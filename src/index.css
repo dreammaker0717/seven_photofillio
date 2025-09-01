@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main_name {
+  color: #FFFFFF;
+  font-family: "poppins-medium", sans-serif;
+  font-size: 84px;
+  font-weight: 600;
+}
